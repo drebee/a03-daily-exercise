@@ -35,7 +35,15 @@ def say_hello(name):
   print("Hello, " + name + "!")
   print("How are you today?")
 
-# 2. Call `draw_spiral` with the following arguments:
+# 2. Call `say_hello`
+#    a) Call `say_hello` with the argument "Dr. EB"
+
+#    b) Call `say_hello` with your name as the argument
+
+#    c) Call `say_hello` with a friend's name as the argument
+
+
+# 3. Call `draw_spiral` with the following arguments:
 #    a) use 5 for `num_loops`
 #       use 10 for `distance`
 #       use 45 for `angle`
@@ -48,20 +56,4 @@ def say_hello(name):
 #       use 1 for `distance`
 #       use 60 for `angle`
 
-
-
-# 3. Call `say_hello`
-#    a) Call `say_hello` with the argument "Dr. EB"
-
-#    b) Call `say_hello` with your name as the argument
-
-#    c) Call `say_hello` with a friend's name as the argument
-
 turtle.exitonclick()
-
-age = 36
-
-def highest_dateable_age_according_to_xkcd(your_age):
-  print((your_age - 7) * 2)
-
-highest_dateable_age_according_to_xkcd(16)
